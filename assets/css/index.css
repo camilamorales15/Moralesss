@@ -1,0 +1,129 @@
+/* Estilos para la cabecera y los botones */
+header {
+    /* Color pastel para la barra */
+    background-color: #ffd1dc;
+    padding: 20px;
+    /* Ajusta el header para que sea una barra horizontal */
+    display: flex;
+    /* Separa los contenedores de enlaces y búsqueda */
+    justify-content: space-between;
+    /* Alinea los elementos verticalmente en el centro */
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    padding: 0;
+    /* Alinea los elementos del menú de navegación horizontalmente */
+    display: flex;
+    /* Distribuye los elementos del menú de navegación uniformemente */
+    justify-content: space-around;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.search-container {
+    display: flex;
+    /* Alinea los elementos verticalmente en el centro */
+    align-items: center;
+    /* Añade un espacio entre el input y los botones */
+    gap: 10px;
+}
+
+.button-container {
+    display: flex;
+    /* Añade un espacio entre los botones */
+    gap: 10px;
+}
+
+.button {
+    /* Color pastel para los botones */
+    background-color: #ffb6c1;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    /* Color pastel más oscuro al pasar el cursor */
+    background-color: #ff69b4;
+}
+
+/* Estilos para los botones de abajo*/
+.custom-button {
+    /* Color de fondo */
+    background-color: #ff6347;
+    /* Color del texto */
+    color: white;
+    /* Sin bordes */
+    border: none;
+    /* Espaciado interno */
+    padding: 10px 20px;
+    /* Alineación del texto */
+    text-align: center;
+    /* Sin subrayado */
+    text-decoration: none;
+    /* Para que se comporte como un elemento en línea */
+    display: inline-block;
+    /* Tamaño de fuente */
+    font-size: 16px;
+    /* Margen alrededor del botón */
+    margin: 4px 2px;
+    /* Cambia el cursor al pasar el ratón */
+    cursor: pointer;
+    /* Bordes redondeados */
+    border-radius: 12px;
+}
+
+.custom-button:hover {
+    /* Cambia el color de fondo al pasar el ratón */
+    background-color: #ff4500;
+}
+
+.button-container {
+    display: flex;
+    /* Centra los botones horizontalmente */
+    justify-content: center;
+    /* Centra los botones verticalmente */
+    align-items: center;
+    background-color: #ffd1dc;
+    padding: 20px;
+}
+
+
+/* Estilos para el componente Jumbo */
+.jumbo {
+    background-image: url('../img/jumbo-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.jumbo-content {
+    max-width: 800px;
+    margin: 0 auto;
+    /* Añade un fondo semi-transparente para verificar la visibilidad */
+    background-color: #ffd1dcb6;
+}
+
+
+.jumbo-content h1 {
+    /* Ajusta el tamaño del título */
+    font-size: 3em;
+    /* Añade un margen en la parte inferior del título */
+    margin-bottom: 20px;
+}
+
+.jumbo-content p {
+    /* Ajusta el tamaño del párrafo */
+    font-size: 1.2em;
+    /* Añade un margen en la parte inferior del párrafo */
+    margin-bottom: 20px;
+}

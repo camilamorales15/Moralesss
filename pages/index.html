@@ -1,33 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema de Matrículas</title>
 
+    <!-- Ruta al archivo CSS -->
+    <link rel="stylesheet" href="../assets/css/index.css">
 </head>
+
 <body>
+
     <header>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Programas académicos</a></li>
-            <li><a href="#">Docentes</a></li>
-            <li><a href="#">Acerca de</a></li>
-        </ul>
-        <div>
-            <input type="text" placeholder="Search...">
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Programas académicos</a></li>
+                <li><a href="#">Docentes</a></li>
+                <li><a href="#">Acerca de</a></li>
+            </ul>
         </div>
-            <button type="button">Ingresar</button>
-            <button type="button">Nuevo usuario</button>    
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <div class="button-container">
+                <button type="button" class="button">Ingresar</button>
+                <button type="button" class="button">Nuevo usuario</button>
+            </div>
+        </div>
     </header>
-    <h1>Sistema de matrículas</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <button type="button">Botón de ejemplo</button>
-    <button type="button">Otro botón</button>
+
+    <!-- Componente Jumbo -->
+    <section class="jumbo">
+        <div class="jumbo-content">
+            <h1>Sistema de Matrículas</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
+            </p>
+        </div>
+    </section>
+
+    <div class="button-container">
+        <button type="button" class="custom-button">Botón de ejemplo</button>
+        <button type="button" class="custom-button">Otro botón</button>
+    </div>
+
 </body>
+
 </html>
