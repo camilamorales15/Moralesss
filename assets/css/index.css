@@ -51,48 +51,6 @@ header {
     background-color: #ff69b4;
 }
 
-/* Estilos para los botones de abajo*/
-.custom-button {
-    /* Color de fondo */
-    background-color: #ff6347;
-    /* Color del texto */
-    color: white;
-    /* Sin bordes */
-    border: none;
-    /* Espaciado interno */
-    padding: 10px 20px;
-    /* Alineación del texto */
-    text-align: center;
-    /* Sin subrayado */
-    text-decoration: none;
-    /* Para que se comporte como un elemento en línea */
-    display: inline-block;
-    /* Tamaño de fuente */
-    font-size: 16px;
-    /* Margen alrededor del botón */
-    margin: 4px 2px;
-    /* Cambia el cursor al pasar el ratón */
-    cursor: pointer;
-    /* Bordes redondeados */
-    border-radius: 12px;
-}
-
-.custom-button:hover {
-    /* Cambia el color de fondo al pasar el ratón */
-    background-color: #ff4500;
-}
-
-.button-container {
-    display: flex;
-    /* Centra los botones horizontalmente */
-    justify-content: center;
-    /* Centra los botones verticalmente */
-    align-items: center;
-    background-color: #ffd1dc;
-    padding: 20px;
-}
-
-
 /* Estilos para el componente Jumbo */
 .jumbo {
     background-image: url('../img/jumbo-background.jpg');
@@ -126,4 +84,38 @@ header {
     font-size: 1.2em;
     /* Añade un margen en la parte inferior del párrafo */
     margin-bottom: 20px;
+}
+
+footer {
+    background-color: #ffd1dc; /* Color de fondo del pie de página */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el contenido horizontalmente */
+    color: #333; /* Color del texto */
+    position: fixed; /* Fija el pie de página en la parte inferior de la página */
+    width: 100%; /* Asegura que el pie de página se extienda a lo ancho de la página */
+    bottom: 0; /* Posiciona el pie de página en la parte inferior de la página */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center; /* Centra los botones verticalmente */
+}
+
+.custom-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.custom-button:hover {
+    background-color: #ff4500;
 }
